@@ -15,7 +15,7 @@ const PASSWORD_CONFIG = {
 const SITE_CONFIG = {
     name: 'LibreTV',
     url: 'https://libretv.is-an.org',
-    description: '免费在线视频搜索与观看平台',
+    description: '放下个人素质，享受缺德人生',
     logo: 'image/logo.png',
     version: '1.0.3'
 };
@@ -40,7 +40,7 @@ const API_SITES = {
         name: '天涯资源',
     },
     xiaomaomi: {
-        api: 'https://zy.xmm.hk/api.php/provide/vod',
+        api: 'http://zy.xmm.hk/api.php/provide/vod/',
         name: '小猫咪资源',
     },
     ffzy: {
@@ -102,22 +102,101 @@ const API_SITES = {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽资源'
     },
-    wwzy: {
-        api: 'https://wwzy.tv/api.php/provide/vod',
-        name: '旺旺短剧'
-    },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    lzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '量子资源站'
+    subo: {
+        api: 'https://subocaiji.com/api.php/provide/vod',
+        name: '速播资源'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    fczy: {
+        api: 'https://api.fczy888.me/api.php/provide/vod',
+        name: '蜂巢资源'
+    },
+    ukzy: {
+        api: 'https://api.ukuapi88.com/api.php/provide/vod',
+        name: 'U酷资源'
+    },
+	lzzy:  {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/at/xml',
+	  	name: '量子资源',
+    },
+	modu:  {
+        api: 'https://caiji.moduapi.cc/api.php/provide/vod',
+	  	name: '魔都资源',
+    },
+	zyku:  {
+        api: 'https://api.1080zyku.com/inc/apijson.php',
+	  	name: '1080资源库',
+    },    
+    huya: {
+      api: 'https://www.huyaapi.com/api.php/provide/vod',
+      name: '虎牙资源',
+    },
+    plzy: {
+      api: 'https://p2100.net/api.php/provide/vod',
+      name: '飘零资源',
+    },
+    xinlang: {
+	  api: 'https://api.xinlangapi.com/xinlangapi.php/provide/vod',
+      name: '新浪资源',
+    },
+    lovedan: {
+      api: 'https://lovedan.net/api.php/provide/vod',
+      name: 'lovedan',
+    },
+	sdzy: {
+      api: 'http://sdzyapi.com/api.php/provide/vod',
+      name: '闪电资源',
+    },
+    bdzy: {
+      api: 'https://api.apibdzy.com/api.php/provide/vod',
+      name: '百度资源',
+    },
+    yhzy: {
+      api: 'https://m3u8.apiyhzy.com/api.php/provide/vod/at/xml',
+      name: '樱花资源',
+    },
+	hongniu: {
+      api: 'https://www.hongniuzy2.com/api.php/provide/vod/at/xml',
+      name: '红牛资源',
+    },
+    jyzy: {
+      api: 'https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml',
+      name: '金鹰资源',
+    },
+    suoni: {
+      api: 'https://suoniapi.com/api.php/provide/vod',
+      name: '索尼资源',
+    },
+    taopian: {
+      api: 'https://taopianapi.com/cjapi/mc10/vod/json.html',
+      name: '淘片',
+    },
+    hhzy: {
+      api: 'https://hhzyapi.com/api.php/provide/vod/from/hhm3u8/at/json',
+      name: '豪华资源',
+    },
+    huya: {
+      api: 'https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/at/json',
+      name: '虎牙',
+    },
+	sdzy: {
+      api: 'http://sdzyapi.com/api.php/provide/vod/at/xml',
+      name: '闪电资源',
+    },
+    nnzy: {
+      api: 'https://api.niuniuzy.me/api.php/provide/vod',
+      name: '牛牛资源',
+    },
+    yayazy: {
+      api: 'https://cj.yayazy.net/api.php/provide/vod',
+      name: '丫丫资源',
+    },
+    wwzy: {
+        api: 'https://wwzy.tv/api.php/provide/vod',
+        name: '旺旺短剧'
     },
     // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
     // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
