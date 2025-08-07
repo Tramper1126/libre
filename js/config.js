@@ -5,7 +5,7 @@ const SEARCH_HISTORY_KEY = 'videoSearchHistory';
 const MAX_HISTORY_ITEMS = 5;
 
 // 密码保护配置
-//const PASSWORD_CONFIG = {
+const PASSWORD_CONFIG = {
     localStorageKey: 'passwordVerified',  // 存储验证状态的键名
     verificationTTL: 90 * 24 * 60 * 60 * 1000,  // 验证有效期（90天，约3个月）
     adminLocalStorageKey: 'adminPasswordVerified'  // 新增的管理员验证状态的键名
@@ -206,203 +206,203 @@ const API_SITES = {
     // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
     // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
     // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
-     ckzy: {
+     //ckzy: {
          api: 'https:ckzy.me/api.php/provide/vod/',
          name: 'CK资源',
          adult: true
      },
-     jkun: {
+     // jkun: {
          api: 'https:jkunzyapi.com/api.php/provide/vod/',
          name: 'jkun资源',
          adult: true
      },
-     bwzy: {
+    //  bwzy: {
          api: 'https:api.bwzym3u8.com/api.php/provide/vod/',
          name: '百万资源',
          adult: true
      },
-     souav: {
+      //souav: {
          api: 'https:api.souavzy.vip/api.php/provide/vod/',
          name: 'souav资源',
          adult: true
      },
-     r155: {
+     // r155: {
          api: 'https:155api.com/api.php/provide/vod/',
          name: '155资源',
          adult: true
      },
-     lsb: {
+      //lsb: {
          api: 'https:apilsbzy1.com/api.php/provide/vod/',
          name: 'lsb资源',
          adult: true
      },
-     huangcang: {
+     // huangcang: {
          api: 'https:hsckzy.vip/api.php/provide/vod/',
          name: '黄色仓库',
          adult: true,
          detail: 'https:hsckzy.vip'
      },
-     yutuzy: {
+     // yutuzy: {
          api: 'https:yutuzy10.com/api.php/provide/vod/',
          name: '玉兔资源',
          adult: true
      },
-     yutu: {
+      //yutu: {
          api: 'https:apiyutu.com/api.php/provide/vod/',
          name: '玉兔资源|AV',
 	     adult: true
      },
-     jymd: {
+      //jymd: {
          api: 'https:91md.me/api.php/provide/vod/',
          name: '91|AV',
 	     adult: true
      },
-	 naixx: {
+	 // naixx: {
          api: 'https:naixxzy.com/api.php/provide/vod/',
          name: '奶香香|AV'
 	     adult: true
      },
-     xxibao: {
+     // xxibao: {
          api: 'https:www.xxibaozyw.com/api.php/provide/vod/',
          name: '性细胞|AV'
 	     adult: true
      },
-     danaizi: {
+      //danaizi: {
          api: 'https:apidanaizi.com/api.php/provide/vod/',
          name: '大奶子|AV'
 	     adult: true
      },
-     siwa: {
+      //siwa: {
          api: 'http:siwazyw.tv/api.php/provide/vod/',
          name: '丝袜资源|AV',
 	     adult: true
      },
-     aosika: {
+      //aosika: {
          api: 'https:aosikazy.com/api.php/provide/vod/',
          name: '奥斯卡资源|AV',
 	     adult: true
      },
-     slzy: {
+     // slzy: {
          api: 'https:slapibf.com/api.php/provide/vod/',
          name: '森林资源|AV',
 	     adult: true
      },
-     shayu: {
+      //shayu: {
          api: 'https:shayuapi.com/api.php/provide/vod/',
          name: '鲨鱼资源|AV',
 	     adult: true
      },
-     lajiao: {
+     // lajiao: {
          api: 'http:apilj.com/api.php/provide/vod/',
          name: '辣椒资源|AV',
 	     adult: true
      },
-     msnzy: {
+     // msnzy: {
          api: 'https:www.msnii.com/api/xml.php',
          name: '美少女资源|AV',
 	     adult: true
      },
-     ysjzy:{
+      //ysjzy:{
          api: 'https:www.xrbsp.com/api/xml.php',
          name: '淫水机资源|AV',    
 	     adult: true
      },
-     xner: {
+     // xner: {
          api: 'https:www.gdlsp.com/api/xml.php',
          name: '香奶儿资源|AV',
 	     adult: true
      },
-     baip: {
+      //baip: {
          api: 'https:www.kxgav.com/api/xml.php',
          name: '白嫖资源|AV',
 	     adult: true
      },
-     lebo: {
+     // lebo: {
          api: 'https:lbapi9.com/api.php/provide/vod/',
          name: '乐播资源|AV',
 	     adult: true
      },
-     fanhao: {
+     // fanhao: {
          api: 'http:fhapi9.com/api.php/provide/vod/',
          name: '番号资源|AV',
 	     adult: true
      },
-     dadi: {
+      //dadi: {
          api: 'http:dadiapi.com/sea_api.php',
          name: '大地资源|AV',
 	     adult: true
      },
-     kczy: {
+     // kczy: {
          api: 'https:caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8',
          name: '快车资源|AV',
 	     adult: true
      },
-     lbapi: {
+     // lbapi: {
          api: 'http:lbapiby.com/api.php/provide/vod/at/json',
          name: 'AIvin|AV',
 	     adult: true
      },
-     jingpin: {
+      //jingpin: {
          api: 'https:www.jingpinx.com/api.php/provide/vod/',
          name: '精品资源|AV',
 	     adult: true
      },
-     pgxdy: {
+     // pgxdy: {
          api: 'https:www.pgxdy.com/api/xml.php',
          name: '黄AV资源',
 	     adult: true
     },
-	 gayapi: {
+	 // gayapi: {
          api: 'https:gayapi.com/api.php/provide/vod/',
          name: 'GAY资源',
 	     adult: true
     },
-	 thzy: {
+	 // thzy: {
          api: 'https:thzy1.me/api.php/provide/vod/',
          name: '桃花资源',
 	     adult: true
     },
-	 btzy: {
+	 // btzy: {
          api: 'https:8day.icu/api.php/provide/vod/',
          name: '八天资源',
 	     adult: true
     },
-	 xxavs: {
+	 // xxavs: {
          api: 'https:xxavs.com/api.php/provide/vod/',
          name: '湿乐园',
 	     adult: true
     },
-	 uezy: {
+	 // uezy: {
          api: 'https:a.uezy.pw/api.php/provide/vod/',
          name: '优异资源',
 	     adult: true
     },
-	 jmzy: {
+	  //jmzy: {
          api: 'https:to.to-long.com/api.php/provide/vod/',
          name: '橘猫资源',
 	     adult: true
     },
-	 smzy: {
+	  //smzy: {
          api: 'https:caiji.semaozy.net/inc/apijson_vod.php',
          name: '色猫资源',
 	     adult: true
     },
-	 dd: {
+	 // dd: {
          api: 'https:api.ddapi.cc/api.php/provide/vod/',
          name: '滴滴资源',
 	     adult: true
     },
-	 sexng: {
+	 // sexng: {
          api: 'https:api.sexnguon.com/api.php/provide/vod/',
          name: '色南国资源',
 	     adult: true
     },
-	 vnzy: {
+	 // vnzy: {
          api: 'https:vnzyz.com/api.php/provide/vod/',
          name: '越南资源',
 	     adult: true
     },
-	 jyav: {
+	  //jyav: {
          api: 'https:91av.cyou/api.php/provide/vod/',
          name: '91视频',
 	     adult: true
